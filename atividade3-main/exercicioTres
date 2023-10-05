@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main (){
+    float suaAltura;
+    float alturaPadrao = 1.80;
+    printf("Qual a sua altura?\n");
+    scanf("%f", &suaAltura);
+    if (suaAltura > alturaPadrao)
+    {
+        printf("voce tem mais de 1.80m\n");
+    }else if(suaAltura == alturaPadrao){
+        printf("Sua altura e igual a 1.80");
+    }else{
+        printf("voce mede menos que 1.80m\n");
+    }
+}
+
