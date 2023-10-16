@@ -13,13 +13,13 @@ int main(){
     }
     
     for (int i = 0; i <= 20; i+= 2){
-        for (int j = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
             vetorC[i] = vetorA[j];
         }
     }
 
     for (int i = 1; i <= 19; i+= 2){
-        for (int j = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
             vetorC[i] = vetorB[j];
         }
     }
