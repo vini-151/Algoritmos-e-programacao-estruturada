@@ -42,7 +42,7 @@ int main(){
             }
             break;
         default:
-            printf("Valor isnerido não correspondente as opcoes.\n");
+            printf("Valor inserido não correspondente as opcoes.\n");
             break;
     }
 
