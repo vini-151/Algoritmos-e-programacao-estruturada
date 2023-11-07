@@ -22,13 +22,17 @@ void cadastrar(Aluno p[], int indice){
 
 void imprimir(Aluno p[], int indice){
     for (int i = 0; i < indice; i++){
-        printf("Exibindo cadastro %i\n", indice);
+        printf("Exibindo cadastros\n");
         printf("Nome: %s\n", p[i].nome);
         printf("Matricula: %s\n", p[i].matricula);
         printf("Idade: %i\n", p[i].idade);
         printf("\n");
     }
     
+}
+
+void buscar(Aluno p[], int indice){
+
 }
 
 int main(){
@@ -51,6 +55,8 @@ int main(){
         case 2:
             imprimir(p, totalCadastrados);
             break;
+        case 3:
+            buscar(p, totalCadastrados);
         }
     }while (opcao != 0);
         
