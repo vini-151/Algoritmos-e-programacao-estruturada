@@ -10,18 +10,22 @@ char inserirSexo(char c1){
 double inserirSalario(double n1){
     printf("Insira o seu salario.\n");
     scanf("%lf", &n1);
-    return n1;
+    if (n1 > 1){
+        return n1;    
+    }else{
+        printf("Valor inserido nao suportado.\n");
+    }
 }
 
 double classificaSalario(double n1){
     if (n1 < 1400){
-        n1 = 1;
+        n1 = 1; //codigo "1" = abaixo do salario minimo
         return n1;
     }else if(n1 == 1400){
-        n1 = 2;
+        n1 = 2; // codigo "2" = igual ao salario minimo
         return n1;
     }else{
-        n1 = 3;
+        n1 = 3; // codigo "3" acima do salario minimo
         return n1;
     }
 }
@@ -49,8 +53,6 @@ void mostraClassifica(char sexo, double salario, int classificacaoDoSalario){
     }
     
 }
-
-
 
 int main(){
     int opcao = 1;
