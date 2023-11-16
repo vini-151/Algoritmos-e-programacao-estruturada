@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
-#define TAM 3
+#define TAM 1000
 
 typedef struct{
     int id;
