@@ -106,14 +106,13 @@ void alterar(Pessoa p[], int tamanhoLista, int id){
 }
 
 void excluir(Pessoa p[], int tamanhoLista, int id){
-
     if (tamanhoLista == 0){
         printf("Lista vazia");
         return;
     }else{
         for (int i = 0; i < tamanhoLista; i++){
             if (p[i].id == id){ // registro encontrado
-                for (int j = i; j < tamanhoLista-1; i++){
+                for (int j = i; j < tamanhoLista-1; j++){
                     p[j] =p[j - 1];
                 }  
                 printf("Registro deletado com sucesso!\n");
