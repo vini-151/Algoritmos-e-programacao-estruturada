@@ -2,9 +2,9 @@
 
 int main(){
     // declarando variavel
-    int y = 20;
-    int x = 10;
 
+    int x = 10;
+    int y = 20;
     //declarando ponteiro
 
     int *pY;
@@ -15,9 +15,9 @@ int main(){
 
 
     if (pY > pX){
-        printf("endereco Y vem primeiro");
+        printf("endereco Y vem primeiro\n");
     }else{
-        printf("Endereco x vem  primeiro");
+        printf("Endereco x vem  primeiro\n");
     }
 
     if (*pY > *pX){
