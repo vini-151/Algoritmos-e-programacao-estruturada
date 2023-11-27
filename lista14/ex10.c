@@ -14,5 +14,6 @@ int main(){
         printf("%i\n", *(ponteiro + i) * 2);
     }
     
-    
+    return 0;
+
 }

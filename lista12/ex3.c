@@ -38,6 +38,7 @@ int main(){
         printf("\n");
     }
 
+
     trocas(matrizA);
 
     for (int i = 0; i < 10; i++){
